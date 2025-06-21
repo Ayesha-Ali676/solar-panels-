@@ -1,0 +1,56 @@
+.quote-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fdfdfd;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.quote-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.quote-form input,
+.quote-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.quote-form input:focus,
+.quote-form textarea:focus {
+  border-color: #023991;
+  outline: none;
+}
+
+.quote-form button {
+  width: 100%;
+  padding: 12px;
+  background-color:#023991;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.quote-form button:hover {
+  background-color: #2563eb;
+}
+
+.quote-success {
+  text-align: center;
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.sec {
+  background-color: rgb(0, 78, 147);
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+ 
+}
+.sec p{
+   font-size: large;
+   text-align: center;
+   padding: 20px;
+}
+.longi-container {
+  background-color: #f4f4f4;
+  padding: 40px 25px;
+  margin: 40px auto;
+  max-width: 1500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.longi-logo {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.longi-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.longi-text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.check-button {
+  display: inline-block;
+  background-color: #2b4599;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bold;
+}

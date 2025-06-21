@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+.longi-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding : 40px;
+  justify-content: center;
+  align-items: flex-start;*/
+  background-color: white; 
+}
+.longi{
+      display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding : 60px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f4f4f4;
+   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.longi-left {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.longi-panel {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  height: 350px;
+
+}
+
+.longi-right {
+  flex: 1 1 400px;
+  max-width: 640px;
+}
+
+.longi-right h2 {
+  color: black; /* red heading */
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.longi-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.longi-button-group button {
+  padding: 10px 20px;
+  background-color: #003366; /* deep blue */
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.longi-button-group button:hover {
+  background-color: #002244;
+}
+
+.longi-right ul {
+  padding-left: 10px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #333;
+}
+.head-con {
+  background-color: #f4f4f4;
+  padding: 40px 25px;
+  margin: 40px auto;
+  max-width: 1500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.head-con .head {
+  font-size: 28px;
+  color: #b80000; /* Red heading */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.head-con p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.head-con strong {
+  color: #004080; /* Dark blue emphasis */
+  font-weight: 600;
+}
+.jinko  {
+    color: rgb(7, 165, 7);
+      margin-bottom: 20px;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.ja{
+   color: rgba(27, 27, 115, 0.771);
+      margin-bottom: 20px;
+  font-size: x-large;
+  font-weight: 600;  
+}
